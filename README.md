@@ -58,6 +58,7 @@ Next we execute the adapter setting the type as ```cloud```, then pass the param
 
 ![image](https://github.com/user-attachments/assets/22dbf1a4-4930-4f7c-9947-ad1dae99a8b9)
 
+If things are configured properly and there are no errors you should see the adapter listening for connections on the port you configured: 
 
 ![image](https://github.com/user-attachments/assets/fabfec70-d518-42da-bbb6-79a75d27f8d1)
 
