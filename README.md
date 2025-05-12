@@ -13,7 +13,10 @@ Once the permissions are enabled and applied to the group for an organization, y
 
 ## Step 2: Create An External Adapter
 
+First we will click on the "Add External Adapter" button to create a new External Adapter: 
 ![Add External Adatper](https://github.com/user-attachments/assets/51d5b36a-9c2e-4927-b49a-f4b485c81393)
+
+
 
 
 
