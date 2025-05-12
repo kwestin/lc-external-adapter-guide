@@ -62,5 +62,7 @@ If things are configured properly and there are no errors you should see the ada
 
 ![image](https://github.com/user-attachments/assets/fabfec70-d518-42da-bbb6-79a75d27f8d1)
 
+To test data you can enter ```journalctl -f -q | nc 127.0.0.1 4242``` in the command line, this will send logs from systemd to the adapter which will send them to LimaCharlie for processing and storage. 
+
 
 
