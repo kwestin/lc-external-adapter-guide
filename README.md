@@ -16,7 +16,7 @@ Once the permissions are enabled and applied to the group for an organization, y
 First we will click on the "Add External Adapter" button to create a new External Adapter: 
 ![Add External Adatper](https://github.com/user-attachments/assets/51d5b36a-9c2e-4927-b49a-f4b485c81393)
 
-The configuration for External Adapters is similar to regular adapters, with the main difference being the configuration and processing is done in the cloud vs on the system running the adapter. You can see more information on adapter configuraion in the [LimaCharlie Docs](https://docs.limacharlie.io/v2/docs/adapter-usage). In this example we will be routing syslog from a Linux system into LimaCharlie. You will need an ```ORG ID ``` to define the tenant/org the data will be sent to, as well as an [```installation key```](https://docs.limacharlie.io/docs/installation-keys) created
+The configuration for External Adapters is similar to regular adapters, with the main difference being the configuration and processing is done in the cloud vs on the system running the adapter. You can see more information on adapter configuraion in the [LimaCharlie Docs](https://docs.limacharlie.io/v2/docs/adapter-usage). In this example we will be routing syslog from a Linux system into LimaCharlie. You will need an ```ORG ID ``` to define the tenant/org the data will be sent to, as well as an [```installation key```](https://docs.limacharlie.io/docs/installation-keys) created. 
 
 
 
