@@ -43,6 +43,10 @@ syslog:
   port: 4242
 
 ```
+Once you have entered the configuration for the External Adapter,a GUID (Globally Unique Identifier) will be created, you will want to copy and paste this value somewhere for later use, as it will be used when we execute the adapter on an endpoint. 
+
+![GUID](https://github.com/user-attachments/assets/0fbcd378-1ada-4abe-a372-45e0f176b50d)
+
 
 ## Step 3: Run Adapter 
 
@@ -50,7 +54,7 @@ We download and execute the adapter on a Linux host, in this case a Debian syste
 
 ``` wget https://downloads.limacharlie.io/adapter/linux/64 ```
 
-
+Next we execute the adapter setting the type as ```cloud``
 
 ![image](https://github.com/user-attachments/assets/22dbf1a4-4930-4f7c-9947-ad1dae99a8b9)
 
