@@ -50,11 +50,11 @@ Once you have entered the configuration for the External Adapter,a GUID (Globall
 
 ## Step 3: Run Adapter 
 
-We download and execute the adapter on a Linux host, in this case a Debian system. You can download the agent using wget: 
+We download and execute the adapter on a Linux host, in this case a Debian system. You can download the agent directly using wget: 
 
 ``` wget https://downloads.limacharlie.io/adapter/linux/64 ```
 
-Next we execute the adapter setting the type as ```cloud``
+Next we execute the adapter setting the type as ```cloud```, then pass the parameter ```conf_guid``` and paste in the GUID value from the External Adapter configuration we created earlier along with the ```oid``` parameter for the org/tenant we want the data to go to:
 
 ![image](https://github.com/user-attachments/assets/22dbf1a4-4930-4f7c-9947-ad1dae99a8b9)
 
