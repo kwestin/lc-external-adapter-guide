@@ -11,5 +11,10 @@ Once the permissions are enabled and applied to the group for an organization, y
 
 ![Sensors -> External Adapters](https://github.com/user-attachments/assets/f72c96b4-5273-4896-aa4d-bede93eb3a09)
 
+## Step 2: Create An External Adapter
+
+![Add External Adatper](https://github.com/user-attachments/assets/51d5b36a-9c2e-4927-b49a-f4b485c81393)
+
+
 
 
