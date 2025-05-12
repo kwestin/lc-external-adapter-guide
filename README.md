@@ -68,4 +68,8 @@ To test data you can enter ```journalctl -f -q | nc 127.0.0.1 4242``` in the com
 
 ![image](https://github.com/user-attachments/assets/f5772933-07a2-4c9d-913b-aafb2951f505)
 
+If we look at the Live Feed of the adapter you should start to see events flow into LimaCharlie. 
+
+![image](https://github.com/user-attachments/assets/3aa78715-f920-491f-a449-e91fe9a57000)
+
 
