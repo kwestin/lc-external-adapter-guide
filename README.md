@@ -46,6 +46,12 @@ syslog:
 
 ## Step 3: Run Adapter 
 
+We download and execute the adapter on a Linux host, in this case a Debian system. You can download the agent using wget: 
+
+``` wget https://downloads.limacharlie.io/adapter/linux/64 ```
+
+
+
 ![image](https://github.com/user-attachments/assets/22dbf1a4-4930-4f7c-9947-ad1dae99a8b9)
 
 
