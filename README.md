@@ -72,4 +72,8 @@ If we look at the Live Feed of the adapter you should start to see events flow i
 
 ![image](https://github.com/user-attachments/assets/3aa78715-f920-491f-a449-e91fe9a57000)
 
+You should also be able to see data being populated in the timeline:
+![image](https://github.com/user-attachments/assets/f178a3ca-cb62-4067-968a-ba0f13a6755c)
+
+
 
