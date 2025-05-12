@@ -1,0 +1,1 @@
+# lc-external-adapter-guide
