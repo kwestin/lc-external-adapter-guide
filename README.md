@@ -9,4 +9,6 @@ The enable the External Adapter, an administrator will need to enable permission
 
 Once the permissions are enabled and applied to the group for an organization, you will see "External Adapter" appear in the left navigation under "Sensors"
 
-![Sensors -> External Adapters](https://github.com/user-attachments/assets/8382a592-693f-48dc-abaf-8da817146c66)
+![Sensors -> External Adapters ](https://github.com/user-attachments/assets/b2946738-e70b-4b46-8248-4af71712ca58)
+
+
