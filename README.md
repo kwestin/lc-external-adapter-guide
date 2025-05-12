@@ -16,8 +16,29 @@ Once the permissions are enabled and applied to the group for an organization, y
 First we will click on the "Add External Adapter" button to create a new External Adapter: 
 ![Add External Adatper](https://github.com/user-attachments/assets/51d5b36a-9c2e-4927-b49a-f4b485c81393)
 
+The configuration for External Adapters is similar to regular adapters, with the main difference being the configuration and processing is done in the cloud vs on the system running the adapter. 
 
+```yaml
+sensor_type: syslog
+syslog:
+  client_options:
+    hostname: test-syslog
+    identity:
+      installation_key: [YOUR INSTALLATION KEY]
+      oid:[YOUR ORG ID]
+    mappings:
+      - event_time_path: timestamp
+        event_type_path: app
+        parsing_re: >-
+          ^(?:\<(?P<priority>\d+)\>(?P<severity>\d+) )?(?P<timestamp>\S+\s\d{2}
+          \d{2}:\d{2}:\d{2})\s+(?P<host>\S+)\s(?P<app>\S+)\[(?P<pid>\d+)\]:\s(?P<msg>.*)
+        transform:
+          +dvc_product: '{{ $.app }}'
+    platform: text
+    sensor_seed_key: syslog-test
+  port: 4242
 
+```
 
 
 
