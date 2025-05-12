@@ -16,7 +16,11 @@ Once the permissions are enabled and applied to the group for an organization, y
 First we will click on the "Add External Adapter" button to create a new External Adapter: 
 ![Add External Adatper](https://github.com/user-attachments/assets/51d5b36a-9c2e-4927-b49a-f4b485c81393)
 
-The configuration for External Adapters is similar to regular adapters, with the main difference being the configuration and processing is done in the cloud vs on the system running the adapter. 
+The configuration for External Adapters is similar to regular adapters, with the main difference being the configuration and processing is done in the cloud vs on the system running the adapter. You can see more information on adapter configuraion in the [LimaCharlie Docs](https://docs.limacharlie.io/v2/docs/adapter-usage). 
+
+
+
+
 
 ```yaml
 sensor_type: syslog
